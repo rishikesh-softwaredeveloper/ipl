@@ -1,4 +1,4 @@
-dgcdcgjedjd
+
 
 let jsonData = require('./source.json');
 let obj={};
@@ -6,7 +6,7 @@ let tem=[];
 
 for(let j in jsonData){
     if(jsonData[j]['season']==='2017'){
-     tem.push(jsonData[j]['team1']);         
+     tem.push(jsonData[j]['team1']);        
     }
 }
 const count={};
